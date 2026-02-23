@@ -4,7 +4,6 @@ const dotenv = require("dotenv").config();
 const userrouter = require("./routes/user.route");
 const connectDB = require("./config/db");
 
-
 const app = express();
 const PORT = process.env.PORT;
 connectDB();
